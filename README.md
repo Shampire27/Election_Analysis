@@ -34,7 +34,7 @@ Based on the audit, here are the results:
 
 - **The Couty with the Largest Turnout**
 
-     ![winner_details](Resources/winner_details.png)
+     ![largest_county](Resources/largest_county.png)
 
 
 Summary of results details coud be found in **election_results.txt**
@@ -45,5 +45,5 @@ The calculated results of vote was **printed()** throught Python to the **termin
 
 The main culculations are **count the numbers**, **culculate the percentage** and **compare to get the maximium number**.
 
-This is a clear script for the voting activity. We could easily to edit it by **changing variabilities name and index of the resources** to apply this format of this script on other election activities. 
+This is a clear script for the voting activity. We could easily to edit it by **changing variabilities name**, **index of the resources** and **outputing entry** to apply this format of this script on other election activities. 
 
