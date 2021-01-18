@@ -17,9 +17,9 @@ Based on the audit, here are the results:
      ![election_results](Resources/election_results.png)
 
 - **List of candidates: Total Number of Votes Received (Percentage of the Votes Received)**
-* Charles Casper Stockham: 85,213 (23.0%)
-* Diana DeGette: 272,892 (73.8%)
-* Raymon Anthony Doene: 11,606 (3.1%)
+     * Charles Casper Stockham: 85,213 (23.0%)
+     * Diana DeGette: 272,892 (73.8%)
+     * Raymon Anthony Doene: 11,606 (3.1%)
       
      ![candidate_details](Resources/candidate_details.png)
       
