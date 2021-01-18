@@ -13,15 +13,25 @@ With Visual Studio Code, a python file([PyPoll_Challenge.py](PyRoll_Challenge.py
 ## Election Audit Results
 Based on the audit, here are the results:
 - **Total number of Votes cast**: 369,711 votes
+
 ![election_results](Resources/election_results.png)
-![county_votes](Resources/county_votes.png)
+
 - **List of candidates: Total Number of Votes Received (Percentage of the Votes Received)**
       * Charles Casper Stockham: 85,213 (23.0%)
       * Diana DeGette: 272,892 (73.8%)
       * Raymon Anthony Doene: 11,606 (3.1%)
+      
       ![candidate_details](Resources/candidate_details.png)
+      
 - **Winner of the Election**: **Diana DeGette**
+
       ![winner_of_the_election](Resources/winner_of_the_election.png)
+      
+
+- **Voter Turnout for Each County**
+      ![county_votes](Resources/county_votes.png)
+
+- **The Couty with the Largest Turnout**
       ![winner_details](Resources/winner_details.png)
 
 
@@ -29,4 +39,9 @@ Summary of results details coud be found in [election_results.txt](Election_Anal
 
 ## Election Audit Summary
 
-There is a statement to the election commission that explores how this script can be used for any election, with two examples for modifying the script. (4 pt)
+The calculated results of vote was **printed()** throught Python to the **terminal** during analyzing for visulization purpose.
+
+The main culculations are count the numbers, culculate the percentage and compare to get the maximium number.
+
+This is a clear script for the voting activity. We could easily to edit it by changing variabilities name and index of the resources to apply this format of this script on other election activities. 
+
