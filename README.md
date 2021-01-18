@@ -8,7 +8,7 @@ An employee from Colorado Board of Election requestted for completing an electio
 - Total number of votes each candidate received
 - Percentage of votes each candidate won
 - The winner of the election based on popular vote
-With Visual Studio Code, a python file([PyPoll_Challenge.py](/PyRoll_Challenge.py)) was writern for analysing the raw data in the resource([election_results.csv](/election_results.csv))
+With Visual Studio Code, a python file([PyPoll_Challenge.py](PyRoll_Challenge.py)) was writern for analysing the raw data in the resource([election_results.csv](Resources/election_results.csv))
 
 ## Election Audit Results
 Based on the audit, here are the results:
