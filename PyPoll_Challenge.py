@@ -8,7 +8,7 @@ import os
 # Add a variable to load a file from a path.
 file_to_load = os.path.join("Resources", "election_results.csv")
 # Add a variable to save the file to a path.
-file_to_save = os.path.join("analysis", "election_analysis.txt")
+file_to_save = os.path.join("Analysis", "election_results.txt")
 
 # Initialize a total vote counter.
 total_votes = 0
@@ -18,7 +18,7 @@ candidate_options = []
 candidate_votes = {}
 
 # 1: Create a county list and county votes dictionary.
-county_list = []
+county_options = []
 county_votes = {}
 
 # Track the winning candidate, vote count and percentage
@@ -64,10 +64,10 @@ with open(file_to_load) as election_data:
 
         # 4a: Write an if statement that checks that the
         # county does not match any existing county in the county list.
-        if county_name not in county_list:
+        if county_name not in county_options:
 
             # 4b: Add the existing county to the list of counties.
-            county_list.append(county_name)
+            county_options.append(county_name)
 
             # 4c: Begin tracking the county's vote count.
             county_votes[county_name] = 0
@@ -112,9 +112,9 @@ with open(file_to_save, "w") as txt_file:
     # 7: Print the county with the largest turnout to the terminal.
     largest_county_turnout_summary = (
         f"-------------------\n"
-        f"Winner of the Election: {largest_county}\n"
-        f"Winning Vote Count: {largest_county_voter_turnout:,}\n"
-        f"Winning Percentage of Votes: {largest_percent:.1f}%\n"
+        f"Largest County of the Election: {largest_county}\n"
+        f"Largest County Voter Count: {largest_county_voter_turnout:,}\n"
+        f"Largest County Percentage of Votes: {largest_percent:.1f}%\n"
         f"-------------------\n"
     )
     print(largest_county_turnout_summary)
