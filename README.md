@@ -1,22 +1,24 @@
 # Election_Analysis
-Python project with VSC
+Challenge 3 - This project was writtern with Python and Visual Studio Code
 
+## Overview of Election Audit
+An employee from Colorado Board of Election requestted for completing an election audit of the local congressional election.  In the audit system, their should be:
+- Total number of votes cast
+- A complete list of candidates who received votes
+- Total number of votes each candidate received
+- Percentage of votes each candidate won
+- The winner of the election based on popular vote
+With Visual Studio Code, a python file(PyPoll_Challenge.py) was writern for analysing the raw data in the resource(election_results.csv)
 
-Total number of votes cast
-A complete list of candidates who received votes
-Total number of votes each candidate received
-Percentage of votes each candidate won
-The winner of the election based on popular vote
+## Election Audit Results
+Based on the audit, here are the results:
+1. Total number of Votes cast: 369,711 votes
+2. List of candidates: Total Number of Votes Received (Percentage of the Votes Received)
+      - Charles Casper Stockham: 85,213 (23.0%)
+      - Diana DeGette: 272,892 (73.8%)
+      - Raymon Anthony Doene: 11,606 (3.1%)
+3. Winner of the Election: Diana DeGette      
 
-
-The written analysis has the following:
-
-Overview of Election Audit
-
-The purpose of this election analysis audit is well defined. (3 pt)
-Election Audit Results
-
-There is a bulleted list where each election outcome is addressed. (7 pt)
-Election Audit Summary
+## Election Audit Summary
 
 There is a statement to the election commission that explores how this script can be used for any election, with two examples for modifying the script. (4 pt)
