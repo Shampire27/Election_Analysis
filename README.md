@@ -14,7 +14,7 @@ With Visual Studio Code, a python file(PyPoll_Challenge.py) was writern for anal
 Based on the audit, here are the results:
 - **Total number of Votes cast**: 369,711 votes
 
-![election_results](Resources/election_results.png)
+     ![election_results](Resources/election_results.png)
 
 - **List of candidates: Total Number of Votes Received (Percentage of the Votes Received)**
       * Charles Casper Stockham: 85,213 (23.0%)
