@@ -21,20 +21,20 @@ Based on the audit, here are the results:
       * Diana DeGette: 272,892 (73.8%)
       * Raymon Anthony Doene: 11,606 (3.1%)
       
-      ![candidate_details](Resources/candidate_details.png)
+     ![candidate_details](Resources/candidate_details.png)
       
 - **Winner of the Election**: **Diana DeGette**
 
-      ![winner_of_the_election](Resources/winner_of_the_election.png)
+     ![winner_of_the_election](Resources/winner_of_the_election.png)
       
 
 - **Voter Turnout for Each County**
 
-      ![county_votes](Resources/county_votes.png)
+     ![county_votes](Resources/county_votes.png)
 
 - **The Couty with the Largest Turnout**
 
-      ![winner_details](Resources/winner_details.png)
+     ![winner_details](Resources/winner_details.png)
 
 
 Summary of results details coud be found in [election_results.txt](/Election_Analysis/election_results.txt)
