@@ -25,7 +25,7 @@ Based on the audit, here are the results:
       ![winner_details](Resources/winner_details.png)
 
 
-Summary of results details coud be found in [election_analysis.txt](Election_Analysis/election_analysis.txt)
+Summary of results details coud be found in [election_results.txt](Election_Analysis/election_results.txt)
 
 ## Election Audit Summary
 
